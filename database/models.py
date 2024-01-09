@@ -37,3 +37,5 @@ class NotificationRotaion(_Base):
     type_: _orm.Mapped[_schemas.RotationType] = _orm.mapped_column(
         _sql.Enum(_schemas.RotationType), index=True, nullable=False
     )
+
+    value: _orm.Mapped[str] = _orm.mapped_column(_sql.String, nullable=False)
