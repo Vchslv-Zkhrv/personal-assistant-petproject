@@ -2,3 +2,6 @@
 .session
 .nvimrc
 .env
+logs
+data
+poetry.lock
