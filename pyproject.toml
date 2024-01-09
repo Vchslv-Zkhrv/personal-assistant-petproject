@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "personal-assistant-petproject"
+version = "0.1.0"
+description = ""
+authors = ["Vchslv-Zkrhv <vchslv.zkhrv@gmail.com>"]
+license = "GPL-3.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
