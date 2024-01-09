@@ -1,10 +1,12 @@
-from typing import NoReturn as _NoReturn
 import asyncio
-from aiogram import Bot as _Bot, Dispatcher as _Dispatcher, types as _types
+from typing import NoReturn as _NoReturn
+
+from aiogram import Bot as _Bot
+from aiogram import Dispatcher as _Dispatcher
+from aiogram import types as _types
 from aiogram.filters.command import Command as _Cmd
 
-from config import TOKEN, CHAT_ID
-
+from config import CHAT_ID, TOKEN
 
 
 _bot = _Bot(TOKEN)

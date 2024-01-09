@@ -1,3 +1,10 @@
+echo 'isort'
 isort --settings-file ./.isort.cfg .
+
+echo ''
+echo 'black'
 black --config ./.black .
+
+echo ''
+echo 'flake8'
 flake8 --config ./.flake8 .

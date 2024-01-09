@@ -1,5 +1,5 @@
-from loguru import logger
 from dotenv import dotenv_values as _dotenv
+from loguru import logger
 
 
 logger.add("./logs/debug.log", rotation="1 DAY")

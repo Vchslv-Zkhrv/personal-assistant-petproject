@@ -1,5 +1,5 @@
 [tool.black]
-line-lenght = 79
+line-length = 79
 force-exclude = '''
   .venv/
   __pycache__

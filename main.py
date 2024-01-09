@@ -1,8 +1,9 @@
 import sys
 from typing import NoReturn
+
 from config import logger
-from handler import run as run_handler
 from handler import BotStopped
+from handler import run as run_handler
 
 
 def main() -> NoReturn:
@@ -12,7 +13,7 @@ def main() -> NoReturn:
             run_handler()
         except BotStopped:
             logger.error("BotStopped")
-        except KeyboardInterrupt as e:
+        except KeyboardInterrupt:
             logger.debug("KeyboardInterrupt")
             sys.exit(0)
         except Exception as e:

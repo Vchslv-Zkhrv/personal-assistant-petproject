@@ -15,4 +15,3 @@ class Weekday(_Enum):
     friday = 5
     saturday = 6
     sunday = 7
-
